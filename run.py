@@ -127,6 +127,10 @@ if __name__ == '__main__':
     parser.add_argument('--H_order', type=int, default=2, help='H_order for FITS')
     parser.add_argument('--base_T', type=int, default=24)
 
+    # BDNet
+    parser.add_argument('--multi_cycle', type=int, default=0, help='Whether the dataset is multi-period')
+    parser.add_argument('--norm', type=int, default=1, help='Whether to use RevIN')
+
     args = parser.parse_args()
 
     # args.use_gpu = True if torch.cuda.is_available() and args.use_gpu else False

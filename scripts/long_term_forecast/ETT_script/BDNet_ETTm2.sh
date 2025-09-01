@@ -3,7 +3,7 @@ export CUDA_VISIBLE_DEVICES=1
 model_name=BDNet
 seq_len=720
 
-for top_k in 1 3 7 9 15
+for top_k in 5
 do
 for pred_len in 96 192 336 720
 do

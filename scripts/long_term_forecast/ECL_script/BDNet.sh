@@ -30,6 +30,7 @@ python -u run.py \
   --patience 3 \
   --moving_avg 25 \
   --top_k 5 \
-  --model_type "mlp"
+  --model_type "mlp" \
+  --multi_cycle 1
 done
 done
